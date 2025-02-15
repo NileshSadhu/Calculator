@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple calculator app built with **React Native** and **Expo** that performs basic arithmetic operations like addition, subtraction, multiplication, division, and modulus.
 
-## Get started
+## 📱 Features
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Modulus (`%`)
+- Clear (`C`)
+- Backspace (`⌫`)
+- Decimal point support (`.`)
 
-1. Install dependencies
+## 🚀 Getting Started
 
-   ```bash
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A device or emulator (Expo Go for testing on mobile)
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/NileshSadhu/calculator-app.git
+   cd calculator-app
+   ```
+2. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the Expo development server:
+   ```sh
+   npx expo start
    ```
+4. Scan the QR code using the **Expo Go** app (iOS/Android) or run it in an emulator.
 
-In the output, you'll find options to open the app in a
+## 🏗️ Build for Production
+To generate a standalone APK or IPA:
+- Install EAS CLI:
+  ```sh
+  npm install -g eas-cli
+  ```
+- Configure Expo Application Services:
+  ```sh
+  eas build:configure
+  ```
+- Build for Android:
+  ```sh
+  eas build --platform android --profile production
+  ```
+- Build for iOS (requires a Mac with Xcode):
+  ```sh
+  eas build --platform ios --profile production
+  ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📷 Screenshots
+![Calculator Screenshot]
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠 Technologies Used
+- React Native
+- Expo
+- JavaScript
 
-## Get a fresh project
+## 🤝 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-When you're ready, run:
+---
+Made with ❤️ by [Nilesh Sadhu]
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
