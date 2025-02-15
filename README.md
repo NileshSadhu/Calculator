@@ -1,4 +1,4 @@
-# Calculator App
+![calculator](https://github.com/user-attachments/assets/ab3207d9-99aa-45fb-b603-20adb30edf66)# Calculator App
 
 A simple calculator app built with **React Native** and **Expo** that performs basic arithmetic operations like addition, subtraction, multiplication, division, and modulus.
 
@@ -56,7 +56,8 @@ To generate a standalone APK or IPA:
   ```
 
 ## 📷 Screenshots
-![Calculator Screenshot]
+![calculator](https://github.com/user-attachments/assets/6877d0fd-ebf2-4042-b47b-d75025b344cf)
+
 
 ## 🛠 Technologies Used
 - React Native
@@ -68,4 +69,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 Made with ❤️ by [Nilesh Sadhu]
-
