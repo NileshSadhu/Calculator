@@ -54,6 +54,7 @@ To generate a standalone APK or IPA:
   ```
 
 ## 📷 YouTube link
+https://youtube.com/shorts/tj39Rvu2W2w
 
 ## 🛠 Technologies Used
 - React Native
